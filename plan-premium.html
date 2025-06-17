@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Plan Premium - ArNet</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body style="background-image:url(./images/fondo-contacto.png)">
+
+<header class="nav-bar">
+  <a href="index.html"><img src="images/logo.svg" alt="ArNet Logo" class="logo-img"></a>
+  <nav class="menu-right">
+    <a href="index.html">Inicio</a>
+    <a href="contacto.html">Contáctenos</a>
+    <a href="nosotros.html">Sobre Nosotros</a>
+  </nav>
+</header>
+
+<section class="plan-detail">
+  <h2>Plan Premium</h2>
+  <ul>
+    <li>Velocidad: 1000 Mbps</li>
+    <li>Ideal para gamers, streaming 4K y hogares conectados</li>
+    <li>Incluye módem Wi-Fi</li>
+    <li>Soporte técnico 24/7</li>
+  </ul>
+
+  <div class="contract-form">
+    <h3>Confirmar Contratación</h3>
+    <form id="contract-form">
+      <label for="nombre">Nombre completo</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="dni">DNI</label>
+      <input type="text" id="dni" name="dni" required>
+
+      <label for="direccion">Dirección</label>
+      <input type="text" id="direccion" name="direccion" required>
+
+      <label for="telefono">Teléfono</label>
+      <input type="tel" id="telefono" name="telefono" required>
+
+      <button type="submit" class="button">Confirmar Contratación</button>
+      <span id="mensaje-exito" style="display:none; color: green; font-weight: bold; margin-top: 10px;">
+        ¡Gracias! Tu contratación fue enviada correctamente.
+      </span>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="inner">
+    <div class="flex flex-footer-horizontal">
+      <ul class="icons">
+        <li><a href="#"><img src="assets/icons/facebook.png" alt="Facebook" class="icon-img"></a></li>
+        <li><a href="#"><img src="assets/icons/linkedin.png" alt="Linkedin" class="icon-img"></a></li>
+        <li><a href="#"><img src="assets/icons/instagram.png" alt="Instagram" class="icon-img"></a></li>
+        <li><a href="#"><img src="assets/icons/whatsapp.png" alt="WhatsApp" class="icon-img"></a></li>
+      </ul>
+      <div class="contact-info">
+        <p><strong>Atención al Cliente:</strong> 0800-123-4567</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
